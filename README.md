@@ -1,2 +1,4 @@
 # PopularAlbums
-Android Kotlin application unsing Kotlin,  MVVM pattern  And Architecture Components and Coroutines
+Android Kotlin application unsing Kotlin, MVVM pattern, LiveData and Coroutines
+
+
