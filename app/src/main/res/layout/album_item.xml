@@ -3,16 +3,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="horizontal"
-    android:layout_height="wrap_content">
+    android:layout_marginBottom="2dp"
+    android:elevation="5dp"
+    android:background="@drawable/item_background"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge">
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.3"
+        android:padding="5dp"
         android:id="@+id/image"
-        />
+        android:contentDescription="thumbnail" />
     <TextView
         android:layout_width="0dp"
+        android:gravity="start|center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:layout_height="match_parent"
         android:layout_weight="0.7"
         android:id="@+id/title"
